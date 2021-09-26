@@ -1,0 +1,4 @@
+<!--pages/my/my.wxml-->
+<!-- <web-view src="https://m.s2b.wanmi.com/"></web-view> -->
+
+<web-view src="{{web_src}}" bindmessage="msgHandler" bindload='bindload'> </web-view>

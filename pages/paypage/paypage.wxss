@@ -1,0 +1,57 @@
+/* pages/sharepage/sharepage.wxss */
+.confirm-payment .settle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: .5rem;
+  margin-bottom: .5rem;
+  border-bottom: 1px solid #ECECEC;
+}
+.red{
+  color: #E63D59 !important;
+}
+.pay-price{
+  float: right;
+}
+.confirm-payment .payment-list > text{
+  margin: 0 0 .5rem .5rem;
+  font-size: .7rem
+}
+.confirm-payment .payment-list ul li{
+  background: #fff;
+  border-top: 1px solid #ECECEC;
+  padding: .5rem;
+}
+.confirm-payment .payment-list ul li .label-checkbox, .confirm-payment .settle span{
+  float: right;
+}
+.wx_pay, .pre_pay{
+ display: flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items: center;
+ background-color: #fff;
+ border-top: 1px solid #ECECEC;
+ padding: .5rem;
+}
+.wx_pay_label, .pre_pay_label{
+  display: flex;
+  align-items: center;
+}
+.wx_pay_label text, .pre_pay_label text{
+  margin-left: .3rem;
+  font-size: 14px;
+}
+.content-block{
+  margin: 1.75rem 0;
+  padding: 0 .75rem;
+  color: #6d6d72;
+  display: flex;
+  justify-content: center;
+}
+.confrim-button{
+  width: 96%;
+  background-color: #E63D59;
+  color: #fff;
+}

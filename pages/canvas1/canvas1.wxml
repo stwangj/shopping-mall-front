@@ -1,0 +1,4 @@
+<view class='poste_box' id='canvas-container' >
+  <canvas canvas-id="myCanvas" bindmessage="msgHandler" style="width:100%;height:900rpx;"/>
+
+</view>
